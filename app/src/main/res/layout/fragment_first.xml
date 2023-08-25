@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:id="@+id/tv_counter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:textSize="52sp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button_plus"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="+1"
+        android:textSize="36sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/button_next_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Fragment"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"/>
+
+</FrameLayout>
