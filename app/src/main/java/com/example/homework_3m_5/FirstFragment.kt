@@ -42,6 +42,7 @@ class FirstFragment : Fragment() {
            } else if(counter == 0 && isItSecondTime){
                plusButton.text = "+1"
                fragmentButton.visibility = View.VISIBLE
+               isItSecondTime = false
            }
             counterTextView.text = counter.toString()
         }
